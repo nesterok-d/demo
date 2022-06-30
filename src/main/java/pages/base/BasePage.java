@@ -6,7 +6,6 @@ public class BasePage {
 
     public WebDriver driver; //создаем переменную driver доступную всем наследникам класса
 
-
     public BasePage(WebDriver driver) { //передача драйвера
         this.driver = driver;
     }
